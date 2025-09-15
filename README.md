@@ -1,9 +1,6 @@
 # Lecture-Formatter
 
-SPH E-Learning Services Naming Convention Tool for Formatting File Structure of Lectures
-Developed by Xander Elliott
-
-This tool is used to create the file structure needed for lectures pulled from the server.
+A SPH E-Learning Services naming convention tool for formatting file structure of lectures.
 
 ## An example of this looks as follows:
 
