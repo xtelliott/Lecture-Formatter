@@ -1,17 +1,16 @@
 # Lecture-Formatter
 
-A SPH E-Learning Services naming convention tool for formatting file structure of lectures.
+## Description
+A naming convention tool built for the School of Public Health E-Learning Services Office, used to format file structures of lectures. It is designed to maximize efficiency of incoming lectures by rearranging the following:
 
-## An example of this looks as follows:
-
-### ORIGINAL:
+### ORIGINAL
 ```
 1234_LectureName:
     -> audio.wav
     -> slides.pptx
     -> script.docx or .txt
 ```
-### FORMATTED:
+### FORMATTED
 ```
 1234_LectureName:
 -> Development:
@@ -29,19 +28,17 @@ A SPH E-Learning Services naming convention tool for formatting file structure o
 *This tool can be used on multiple lectures at once to save time in renaming files and creating folders.
 ```
 
-## To use:
-```
+## Installation and Usage
 1. Extract the LectureFormatter.zip file onto your desktop.
 2. Drop any lecture folders you want converted into the extracted LectureFormatter folder.
 3. Open command prompt and type "cd desktop/LectureFormatter" (or follow the correct navigation path if
    your tool is placed elsewhere) to move into the right directory.
 4. Type the command "python LectureFormatter.py" and your folder will now adhere to the correct file structure!
 
-1234_LectureName is included in the tool's folder and can be used as a test for expected output. The file
+*1234_LectureName is included in the tool's folder and can be used as a test for expected output. The file
 can safely be deleted if it is not needed.
-```
 
-## An example of console output looks like this:
+### An example of console output looks like this:
  ```
  ======================================================================
  Formatting 1234_LectureName
@@ -68,3 +65,6 @@ can safely be deleted if it is not needed.
  Lecture Formatting Finished!
  ======================================================================
  ```
+
+## Built With
++ Python (using Shutil and OS modules)
