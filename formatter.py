@@ -114,8 +114,10 @@ def main():
         filename, extension = os.path.splitext(folder)
         #Don't want any other file types or pre-existing folders to be logged in output
         if (extension != ".py" and extension != ".txt" and extension != ".pyc"
-            and filename != "__pycache__" and filename != "Production"
-            and filename != "Development" and filename != "Source"):
+            and extension != ".md" and filename != ".gitignore"
+            and filename != "__pycache__" and filename != ".git"
+            and filename != "Production" and filename != "Development"
+            and filename != "Source"):
             print("=" * global_lineLength)
             print("Formatting " + folder)
             print(("=" * global_lineLength) + "\n")
